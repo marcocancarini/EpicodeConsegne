@@ -5,6 +5,23 @@ Ogni PDF è il report di una lezione, nominato nel formato `SxLy` (Settimana *x*
 e documenta un'attività pratica svolta in un ambiente di laboratorio isolato (macchine virtuali
 e Cisco Packet Tracer).
 
+I report sono organizzati in cartelle per settimana (`Settimana 1`, `Settimana 2`, …);
+ogni cartella contiene i PDF delle lezioni di quella settimana. Non ci sono report per le
+settimane 4 e 8.
+
+```
+pdf_raccolti/
+├── Settimana 01/  S01L1 … S01L5
+├── Settimana 02/  S02L1 … S02L5
+├── Settimana 03/  S03L1 … S03L5
+├── Settimana 05/  S05L2, S05L3, S05L5
+├── Settimana 06/  S06L2, S06L3, S06L5
+├── Settimana 07/  S07L1 … S07L5
+├── Settimana 09/  S09L4, S09L5
+├── Settimana 10/  S10L2, S10L4, S10L5
+└── Settimana 11/  S11L5
+```
+
 ## Settimana 1 – Fondamenti di rete
 
 - **S01L1** – Report di verifica del setup del laboratorio: controllo del corretto funzionamento delle macchine virtuali Windows 7, Kali Linux e Metasploitable.
